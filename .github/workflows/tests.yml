@@ -15,4 +15,5 @@ jobs:
           python-version: '3.12'
 
       - name: Run Python Tests
+        working-directory: finance-budget-automation
         run: python -m unittest discover -s tests -v
